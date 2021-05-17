@@ -110,10 +110,9 @@ h3 {
 }
 
 p {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-  }
-  
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
 
 .products-description {
   border-bottom: solid rgb(211, 211, 211) 1px;
@@ -176,13 +175,26 @@ p {
   padding: 5%;
 }
 
-
-footer{
-    background-color: rgb(43, 43, 43);
-    padding: 1.8%;
+footer {
+  background-color: rgb(43, 43, 43);
+  padding: 1.8%;
 }
 
-footer address{
-    font-size: 1.5rem;
-    color: var(--white-color);
+footer address {
+  font-size: 1.5rem;
+  color: var(--white-color);
+}
+
+.p-all--5 {
+  padding: 5%;
+
+}
+
+.p-top--10 {
+  padding-top: 10% !important;
+}
+
+.img_content_product {
+  width: 80%;
+  /* margin: 0 10%; */
 }
