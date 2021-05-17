@@ -1,0 +1,42 @@
+@media (max-width: 600px) {
+  .products {
+    height: auto;
+  }
+
+  .product {
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 10px;
+  }
+
+  .main_section {
+    padding: 10% 5%;
+  }
+
+  .product-inf {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .products-description-people {
+    height: auto;
+  }
+
+  .product-inf-people {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 25px;
+  }
+}
+
+/* T A B L E T */
+@media (min-width: 600px) and (max-width: 1080px) {
+  .products {
+    height: auto;
+    padding: 10%;
+  }
+
+  .product {
+    margin-top: -160px;
+  }
+}
