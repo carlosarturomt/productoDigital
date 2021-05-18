@@ -26,7 +26,7 @@
         content="https://png.pngitem.com/pimgs/s/520-5208614_curso-programacin-front-end-completo-transparent-html-css.png" />
     <meta itemprop="image"
         content="https://png.pngitem.com/pimgs/s/520-5208614_curso-programacin-front-end-completo-transparent-html-css.png" />
-    <title>Brand|Producto</title>
+    <title>Brand|Venta</title>
     <link rel="icon" type="image/png"
         href="https://static.platzi.com/media/achievements/badges-html-css-b0a71550-d5e7-4e27-aca2-f09f1321a517.png" />
     <link rel="stylesheet" href="css/styles.css" />
@@ -36,7 +36,7 @@
 </head>
 
 <body>
-    <!-- * Aquí empieza el NAVBAR -->
+    <!-- * Aquí empieza el N A V B A R -->
     <nav class="fadeInDown">
         <div class="brand_image">
             <img src="https://prueba.carlosarturomt.com/cursoHtmlCss/assets/imgs/logo.png" alt="Logo" />
@@ -51,46 +51,37 @@
 
     <!-- * Aquí empieza el M A I N -->
     <main class="container">
-        <section class="p-all--5">
-            <hgroup>
-                <h1>Productos</h1>
-            </hgroup>
-            <article class="row">
-                <!-- * Producto 1 -->
-                <aside class="col-4">
-                    <img class="img_content_product" src="assets/imgs/cats/ben1.png" alt="Gatitos en caja">
-                </aside>
-                <article class="col-8 p-top--10">
-                    <h2>Producto 1</h2>
-                    <p>Miles de productos hay en el mercado, pero nada como una caja con
-                        gatitos.</p>
-                </article>
-            </article>
-            <article class="row">
-                <!-- * Producto 2 -->
-                <article class="col-8 p-top--10">
-                    <h2>Producto 2</h2>
-                    <p>Miles de productos hay en el mercado, pero nada como una caja con
-                        gatitos.</p>
-                </article>
-                <aside class="col-4">
-                    <img class="img_content_product" src="assets/imgs/cats/ben2.png" alt="Gatitos en caja 2">
-                </aside>
-            </article>
-            <article class="row">
-                <!-- * Producto 3 -->
-                <aside class="col-4">
-                    <img class="img_content_product" src="assets/imgs/cats/ben3.png" alt="Gatitos en caja 3">
-                </aside>
-                <article class="col-8 p-top--10">
-                    <h2>Producto 3</h2>
-                    <p>Miles de productos hay en el mercado, pero nada como una caja con
-                        gatitos.</p>
-                </article>
+        <section class="row p--15-5">
+            <aside class="col-4">
+                <div class="modulo-pago">
+                    <img class="m-center--0-20" src="/assets/imgs/box2.png" alt="Gatitos en caja">
+                    <h3>Producto 1</h3>
+                    <p>Miles de productos hay en el mercado, pero nada como una caja con gatitos.</p>
+                </div>
+            </aside>
+            <article class="col-8">
+                <div class="modulo-pago">
+                    <form action="data">
+                        <label for="name">Nombre</label>
+                        <br>
+                        <input class="modulo-pago--input" type="text" placeholder="nombre" name="name" autocomplete="on" required>
+                        <br>
+                        <label for="email">Email</label>
+                        <br>
+                        <input class="modulo-pago--input" type="text" placeholder="correo" name="email" autocomplete="email" required>
+                        <br>
+                        <label for="phone">Teléfono</label>
+                        <br>
+                        <input class="modulo-pago--input" type="text" placeholder="número de teléfono" name="phone" autocomplete="tel" required>
+                        <br>
+                        <input type="submit" name="submit" value="Confirmar pago" class="main_button">
+                    </form>
+                </div>
             </article>
         </section>
     </main>
 
+    <!-- * Aquí empieza el F O O T E R -->
     <footer>
         <address>CarlosArturoMT</address>
     </footer>
