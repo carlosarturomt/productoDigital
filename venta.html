@@ -32,19 +32,18 @@
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="css/mobile.css">
     <link rel="stylesheet" href="css/grid.css">
-    <link rel="stylesheet" href="css/animation.css">
 </head>
 
 <body>
     <!-- * Aquí empieza el N A V B A R -->
     <nav class="fadeInDown">
-        <div class="brand_image">
+        <a href="index" class="brand_image">
             <img src="https://prueba.carlosarturomt.com/cursoHtmlCss/assets/imgs/logo.png" alt="Logo" />
-        </div>
+        </a>
         <div class="nav_options">
             <ul>
                 <li><a href="#">Faqs</a></li>
-                <li><a href="#">Producto y Descripción</a></li>
+                <li><a href="producto">Producto y Descripción</a></li>
             </ul>
         </div>
     </nav>
@@ -54,14 +53,14 @@
         <section class="row p--15-5">
             <aside class="col-4">
                 <div class="modulo-pago">
-                    <img class="m-center--0-20" src="/assets/imgs/box2.png" alt="Gatitos en caja">
+                    <img class="m-center--0-20" src="https://prueba.carlosarturomt.com/cursoHtmlCss/assets/imgs/box2.png" alt="Gatitos en caja">
                     <h3>Producto 1</h3>
                     <p>Miles de productos hay en el mercado, pero nada como una caja con gatitos.</p>
                 </div>
             </aside>
             <article class="col-8">
                 <div class="modulo-pago">
-                    <form action="data">
+                    <form action="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=QL72BAA6WCW4J" method="POST">
                         <label for="name">Nombre</label>
                         <br>
                         <input class="modulo-pago--input" type="text" placeholder="nombre" name="name" autocomplete="on" required>
@@ -83,7 +82,7 @@
 
     <!-- * Aquí empieza el F O O T E R -->
     <footer>
-        <address>CarlosArturoMT</address>
+        <address> <a href="https://carlosarturomt.com">CarlosArturoMT</a> </address>
     </footer>
 </body>
 

@@ -3,9 +3,9 @@
   --green-color: #7acc2d;
   --green-color-shadow: #5e9e22;
   --white-color: #ffffff;
+  --black-color: #252525;
   --box-grey: 0 0 1.5px grey;
-  --padding-10: 10px
-
+  --padding-10: 10px;
 }
 
 * {
@@ -66,9 +66,20 @@ h3 {
   margin-bottom: 7px;
 }
 
-p, label {
+p,
+label {
   font-size: 1.5rem;
   margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--green-color);
+}
+
+a:hover {
+  color:  var(--green-color-shadow);
+  text-decoration: underline;
 }
 
 /* M A I N - S E C T I O N */
@@ -192,6 +203,14 @@ footer address {
   color: var(--white-color);
 }
 
+.m-all--20 {
+  /* border: red solid 1px; */
+  width: 70%;
+  margin: 15%;
+  align-items: center;
+  text-align: center;
+}
+
 .m-center--0-20 {
   width: 60%;
   margin: 0 20%;
@@ -199,7 +218,6 @@ footer address {
 
 .p-all--5 {
   padding: 5%;
-
 }
 
 .p--15-5 {
@@ -215,7 +233,7 @@ footer address {
   /* margin: 0 10%; */
 }
 
-.modulo-pago{
+.modulo-pago {
   background-color: var(--white-color);
   box-shadow: var(--box-grey);
   padding: var(--padding-10);
